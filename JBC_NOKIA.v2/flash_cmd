@@ -1,0 +1,1 @@
+avrdude -v -patmega328p -c stk500v2 -P/dev/ttyUSB3 -b115200 -D -Uflash:w:Dualoptiboot_v5.0_atmega328_8mhz_57600baud_BlinkD9.hex -U lfuse:w:0xD2:m -U hfuse:w:0xDC:m -U efuse:w:0xFE:m -U lock:w:0xCF:m
